@@ -1,7 +1,7 @@
-which_one = int(input("choose the operator you want 1: +   2: -  3: /  4: *  :"))
+which_one = int(input("choose the operator you want 10: +   2: -  3: /  4: *  :"))
 A = int(input("enter the first number :"))
 B = int(input("enter the second one :"))
-if which_one == 1 :
+if which_one == 10 :
    print(A+B)
 elif which_one == 2 :
    print(A-B)
