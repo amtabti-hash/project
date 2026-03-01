@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+#<<<<<<< HEAD
 which_one = int(input("choose the operator you want 10: +   2: -  3: /  4: *  :"))
 A = int(input("enter the  number :"))
 B = int(input("enter the second one :"))
@@ -13,7 +13,7 @@ elif which_one == 3 :
        print(A/B)
 elif which_one == 4 :
    print(A*B)
-=======
+#=======
 p =1
 print(p)
->>>>>>> 9a7bb9c (chqnge everything)
+#>>>>>>> 9a7bb9c (chqnge everything)
