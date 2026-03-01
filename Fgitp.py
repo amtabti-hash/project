@@ -1,0 +1,14 @@
+which_one = int(input("choose the operator you want 1: +   2: -  3: /  4: *  :"))
+A = int(input("enter the first number :"))
+B = int(input("enter the second one :"))
+if which_one == 1 :
+   print(A+B)
+elif which_one == 2 :
+   print(A-B)
+elif which_one == 3 :
+    if B == 0 :
+       print("invalid operator")
+    else :
+       print(A/B)
+elif which_one == 4 :
+   print(A*B)
